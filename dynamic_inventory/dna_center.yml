@@ -7,8 +7,8 @@ dnac_version: '2.2.3.3'
 validate_certs: False
 #collect device's IP address of interface managed by DNAC
 use_dnac_mgmt_int: True
-username: '{{ ansible_user }}'
-password: '{{ ansible_password }}'
+username: '{{ dnac_user }}'
+password: '{{ dnac_password }}'
 # toplevel: 'dnac3'
 # network-device API call returns maximum of 500 records
 # pagination is necessary for large-scale deployments which
