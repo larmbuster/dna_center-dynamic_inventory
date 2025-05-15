@@ -9,8 +9,8 @@ validate_certs: False
 use_dnac_mgmt_int: True
 #username: 'devnetuser'
 #password: 'Cisco123!'
-username: '{{ dnac_user }}'
-password: '{{ dnac_password }}'
+#username: '{{ dnac_user }}'
+#password: '{{ dnac_password }}'
 # toplevel: 'dnac3'
 # network-device API call returns maximum of 500 records
 # pagination is necessary for large-scale deployments which
