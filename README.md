@@ -25,6 +25,6 @@ Injector configuration:
 ```
 env:
   DNAC_HOST: '{{ host }}'
-  DNAC_PASSWORD: '{{ password }}'
   DNAC_USERNAME: '{{ username }}'
+  DNAC_PASSWORD: '{{ password }}'
 ```
