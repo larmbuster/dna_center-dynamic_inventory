@@ -6,6 +6,9 @@ Using these files requires creating a custom credential type in AAP so that the 
 Input configuration:
 ```
 fields:
+  - id: host
+    type: string
+    label: Host
   - id: username
     type: string
     label: Username
@@ -13,13 +16,10 @@ fields:
     type: string
     label: Password
     secret: true
-  - id: host
-    type: string
-    label: Host
 required:
+  - host
   - username
   - password
-  - host
 ```
 Injector configuration:
 ```
